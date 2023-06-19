@@ -10,7 +10,7 @@ describe('API Tests', () => {
         });
     });
   
-    it('2. should retrieve a specific book from the API', () => {
+    it('2. should retrieve a specific book from the API test', () => {
       const isbn = '9781449325862';
   
       cy.request('GET', `https://demoqa.com/BookStore/v1/Book?ISBN=${isbn}`)
